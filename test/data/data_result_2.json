@@ -1,0 +1,7 @@
+{
+  "views": {
+    "v1": {"access": true},
+    "v2": {"access": true},
+    "v3": {"access": true}
+  }
+}

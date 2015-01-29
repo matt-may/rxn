@@ -1,0 +1,15 @@
+[{
+"views": {
+"v1": { "access": true },
+"v2": { "access": true },
+"v3": { "access": true },
+"v4": { "access": true }
+}
+},
+{
+"views": {
+"v1": { "access": false },
+"v2": { "access": false },
+"v6": { "access": false }
+}
+}]

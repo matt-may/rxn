@@ -1,14 +1,14 @@
 [{
-    "views": {
-      "v1": { "access": true },
-      "v2": { "access": false },
-      "v3": { "access": false }
-    }
-  },
-  {
-    "views": {
-      "v1": { "access": false },
-      "v2": { "access": true },
-      "v3": { "access": true }
-    }
-  }]
+"views": {
+"v1": { "access": true },
+"v2": { "access": false },
+"v3": { "access": false }
+}
+},
+{
+"views": {
+"v1": { "access": false },
+"v2": { "access": true },
+"v3": { "access": true }
+}
+}]

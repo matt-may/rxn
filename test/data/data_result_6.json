@@ -1,0 +1,11 @@
+{
+  "other": {
+    "v1": {"access": false},
+    "v2": {"access": true},
+    "v3": {"access": false},
+    "v4": {"access": true},
+    "v6": {"access": true},
+    "happy": { "thing": true },
+    "sad": { "thing": true, "other_thing": true }
+  }
+}

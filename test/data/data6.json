@@ -1,0 +1,19 @@
+[{
+"other": {
+"v1": { "access": false },
+"v2": { "access": true },
+"v3": { "access": false },
+"v4": { "access": true },
+"happy": { "thing": true },
+"sad": { "thing": true, "other_thing": true }
+}
+},
+{
+"other": {
+"v1": { "access": false },
+"v2": { "access": false },
+"v6": { "access": true },
+"happy": { "thing": false },
+"sad": { "thing": false, "other_thing": false }
+}
+}]
