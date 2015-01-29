@@ -3,10 +3,22 @@ require_relative '../lib/json_processor'
 require 'thor'
 
 class ThorCommand < Thor
-  desc "foo", "Prints foo"
-  def foo
-    puts "foo"
+
+  desc "merge INFILE OUTFILE", "Merges JSON permissions from a file and writes merged permissions to another file"
+  method_option :to_stdout, :aliases => "-s", :desc => "Write the merged permissions to STDOUT instead of a file"
+  def merge(infile, outfile = nil)
+    processor = JsonProcessor::Processor.new(File.expand_path(infile))
+    merged = processor.merged
+
+    if options[:to_stdout]
+      STDOUT.puts merged
+    else
+      File.open(File.expand_path(outfile), 'w') do |f|
+        f.write(merged)
+      end
+    end
   end
+
 end
 
 ThorCommand.start
