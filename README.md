@@ -6,6 +6,10 @@ JsonProcessor is a simple command line application that allows you to merge perm
 
 ### Usage
 ***
+First, ensure you have all the required gems:
+```
+bundle install
+```
 CD to the application's ```bin``` directory:
 ```
 $ cd ./bin
