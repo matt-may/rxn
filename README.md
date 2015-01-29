@@ -1,6 +1,6 @@
 # JsonProcessor
 
-## Description
+### Description
 ***
 JsonProcessor is a simple command line application that allows you to merge permissions from a JSON input file, and write those merged permissions to an output file.
 
