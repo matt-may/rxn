@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in json_processor.gemspec
-gemspec
+gem 'minitest' # optional as it's included by default in Ruby std lib
+gem 'minitest-reporters'
+gem 'shoulda-context'
+gem 'json'
+gem 'thor'

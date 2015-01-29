@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require_relative '../lib/json_processor'
+require 'thor'
+
+class ThorCommand < Thor
+  desc "foo", "Prints foo"
+  def foo
+    puts "foo"
+  end
+end
+
+ThorCommand.start
