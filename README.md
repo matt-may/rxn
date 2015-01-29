@@ -1,31 +1,25 @@
 # JsonProcessor
 
-TODO: Write a gem description
+## Description
+***
+JsonProcessor is a simple command line application that allows you to merge permissions from a JSON input file, and write those merged permissions to an output file.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'json_processor'
+### Usage
+***
+CD to the application's ```bin``` directory:
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install json_processor
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/json_processor/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+$ cd ./bin
+```
+To use the application, run:
+```
+./json_processor merge <infile> <outfile>
+```
+You can also run the application with the ```-s``` flag to print the results of the merge to ```STDOUT``` instead:
+```
+./json_processor merge <infile> -s
+```
+To learn about how to use the command, run:
+```
+./json_processor help merge
+```
+**Note**: Several test data files which can be used as the ```<infile>``` are provided in the ```test/data``` directory.
